@@ -40,14 +40,6 @@ export default function ProductList() {
     page * ITEMS_PER_PAGE
   );
 
-  const sortedProducts = [...products].sort((a, b) =>
-    sortOrder === "asc"
-      ? a.price - b.price
-      : sortOrder === "desc"
-      ? b.price - a.price
-      : 0
-  );
-
   if (loading) return <p>Loading...</p>;
 
   return (
