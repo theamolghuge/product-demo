@@ -8,6 +8,8 @@ npm run dev -> for starting project
 
 npm run test -> for running test on project
 
+You can directly view the deployed version over here: https://product-demo-gamma.vercel.app/
+
 Summary:
 
 Created a React App written in TypeScript for displaying data that is retrieved via a
